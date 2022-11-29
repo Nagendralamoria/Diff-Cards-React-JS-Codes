@@ -1,22 +1,19 @@
 
 import './App.css';
-
-import Footer2 from './Componentss/Footer2';
-import Loginpage1 from './Componentss/Loginpage1';
-import Flipcard from './Componentss/Flipcard';
-import Navbar from './Componentss/Navbar';
-import Navbar from './Componentss/Navbar3';
-import Navbar from './Componentss/Navbar2';
-import Navbar from './Componentss/Navbar4';
+import Card1 from './Components/Card1'
+import Card2 from './Components/Card2'
+import Card3 from './Components/Card3'
+import Card4 from './Components/Card4'
+import Flipcard from './Components/Flipcard';
 
 function App() {
   return (
     <div className="App">
-     <Navbar/>
-     <Navbar2/>
-     <Navbar3/>
-     <Navbar4/>
-    
+   <Flipcard/>
+    <Card1/>
+    <Card2/>
+    <Card3/>
+    <Card4/>
 
     </div>
   );
